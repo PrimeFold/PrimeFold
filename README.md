@@ -1,16 +1,14 @@
-## Hi there 👋
+Hi there 👋
 
-<!--
-**PrimeFold/PrimeFold** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am Aditya , a student learning web development for passion , in India.
 
-Here are some ideas to get you started:
+I'm primarily focus on the functioning of the website rather than the UI/UX.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build the solid ideas in my head and try to deploy it.
+
+My main stack is Next js , tailwind css , supabase , clerk ( sometimes ) , typescript.
+
+An Ai tool that I use is Qwen Coder.
+
+I've prepared a few projects , but I'm currently working on the 'lockin' SaaS.
+
