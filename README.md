@@ -10,5 +10,5 @@ My main stack is Next js , tailwind css , supabase , clerk ( sometimes ) , types
 
 An Ai tool that I use is Qwen Coder.
 
-I've prepared a few projects , but I'm currently working on the 'lockin' SaaS.
+I've prepared a few projects ,  currently working on a Saas .
 
