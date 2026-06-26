@@ -1,1 +1,1 @@
-Self-taught full stack developer, currently building production-grade web apps with React, Node.js, TypeScript and PostgreSQL. Interested in backend architecture, auth systems, and real-time applications. Currently learning Websockets . Open to internship opportunities
+Self-taught full stack developer, currently building production-grade web apps with  React, Node.js, TypeScript and PostgreSQL. Interested in backend architecture, auth systems, and real-time applications. Currently learning Springboot . Open to internship opportunities
