@@ -99,18 +99,6 @@ Both are useful.
 
 ---
 
-## 📊 GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PrimeFold&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrimeFold&layout=compact&hide_border=true&theme=transparent" height="170" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=PrimeFold&hide_border=true&theme=transparent" />
-</p>
-
----
 
 ## 🌱 A Long-Term Goal
 
