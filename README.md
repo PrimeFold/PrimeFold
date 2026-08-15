@@ -1,7 +1,7 @@
 # Hey, I'm Aditya 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Web+Developer+%7C+Video+Editor;Learning+to+build+better+software;Currently+exploring+Next.js+%26+TypeScript;One+project+at+a+time+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Web+Developer;Learning+to+build+better+software;Currently+exploring+Next.js+%26+TypeScript;One+project+at+a+time+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -34,7 +34,6 @@ I'm currently focused on improving my fundamentals, writing better code, underst
 * 🔨 Building projects with **Next.js, TypeScript & Tailwind CSS**
 * 🧠 Learning more about **backend architecture, databases & system designm Modern UI/UX**
 * 🧪 Experimenting, breaking things, fixing them, and occasionally wondering why they worked in the first place
-* 🎬 Working as a **video editor** alongside development
 * 🚀 Turning small ideas into real projects
 * 📚 Reading and studying code written by better engineers
 
