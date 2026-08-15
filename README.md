@@ -126,7 +126,16 @@ I'm nowhere near there yet.
   </a>
   <a href="https://www.linkedin.com/in/aditya-raj-primefold">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a
+   <!-- X (Twitter) -->
+  <a href="https://x.com/aditya_xb26476">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
   </a>
+  
+  <!-- Instagram -->
+  <a href="https://instagram.com/solarisrex.zen">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
 </p>
 
 ---
