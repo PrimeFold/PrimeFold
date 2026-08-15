@@ -1,7 +1,7 @@
 # Hey, I'm Aditya 👋
 
 <p align="center">
- <img src="https://readme-typing-svg.demolab.com?            font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=650&lines=>+const+role+%3D+%22Full-Stack+Engineer%22%3B;>+stack.focus(%22Next.js%22%2C+%22TypeScript%22%2C+%22Postgres%22)%3B;>+git+commit+-m+%22Leveling+up+every+day%22;>+status%3A+Building+Invoicify+%26+more+%F0%9F%9A%80" alt="Typing SVG" />
+ <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=2563EB&center=true&vCenter=true&width=600&lines=Building+modern+web+software;Next.js+%7C+TypeScript+%7C+PostgreSQL;Backend-focused+engineer;Curious.+Relentless.+Building." alt="Typing SVG" />
 </p>
 
 <p align="center">
