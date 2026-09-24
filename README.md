@@ -19,11 +19,36 @@
 
 I'm a full-stack developer from Ranchi who turns ideas into working products. I like understanding **why** systems are built the way they are, not just how to wire them together, and I lean toward backend work: data modeling, APIs, and the parts users never see but always feel.
 
-I ship projects end to end, from database schema to deployed UI, and I use them to sharpen my fundamentals.
+I ship projects end to end, from database schema to deployed UI. My flagship, PulseGuard, is an AI-assisted incident response platform with vector search, caching, and role-based multi-tenancy.
 
 ---
 
-## 🚀 Featured Projects
+## ⚡ Flagship Project: PulseGuard
+
+**Autonomous SRE & multi-tenant incident response platform** · [Live demo](https://pulseguard-app-navy.vercel.app) · [Source](https://github.com/PrimeFold/pulseguard)
+
+PulseGuard is a self-hosted console that takes raw production logs, groups related errors into incidents, looks up the relevant runbook, and lets an AI agent diagnose the outage and draft a code fix. Nothing reaches your repo until a human approves it.
+
+**How it works**
+
+1. **Ingest:** services POST logs to an API-key-protected, rate-limited endpoint.
+2. **Cluster:** stack traces are scrubbed of UUIDs, IPs, timestamps and numbers, then hashed (SHA-256) into a signature. A sliding window in Redis opens an incident only after 3 identical errors in 3 minutes, which cuts alert noise.
+3. **Diagnose:** in the incident "War Room", an AI agent queries telemetry, searches runbooks with pgvector semantic search (RAG), and reads files from the connected GitHub repo.
+4. **Fix:** the agent proposes a hotfix as a diff card. An `OWNER` or `ADMIN` approves it, and only then does PulseGuard open a pull request.
+
+**Engineering highlights**
+
+- **Multi-tenant RBAC:** organizations are isolated server-side, with role checks (`OWNER`, `ADMIN`, `MEMBER`, `VIEWER`) on every sensitive action.
+- **Bring-your-own-model:** each org plugs in its own AI provider key (Google, Anthropic, OpenAI, Groq, OpenRouter), encrypted at rest.
+- **Human-in-the-loop by design:** the agent is read-only, and repo writes are gated behind admin approval.
+- **RAG pipeline:** PDF and Markdown runbooks are chunked, embedded, and searched by cosine similarity in Postgres.
+- **Production hygiene:** Redis caching, 7-day log auto-pruning, a Vitest suite covering encryption and RBAC, and a Docker Compose local stack. It is deployed on Vercel, and the repo has 70+ commits.
+
+**Stack:** Next.js 16 · React 19 · TypeScript · Bun · Prisma · PostgreSQL + pgvector · Redis · Vercel AI SDK · Better Auth · Octokit · Docker
+
+---
+
+## 🚀 More Projects
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -42,13 +67,13 @@ I ship projects end to end, from database schema to deployed UI, and I use them 
 
 **Backend & Database**
 
-<img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" alt="Backend stack" />
+<img src="https://skillicons.dev/icons?i=nodejs,bun,postgres,prisma,redis,docker" alt="Backend stack" />
 
 **Tools**
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Tools" />
 
-**Currently exploring:** Redis, Docker, system design
+**Currently exploring:** system design, deeper backend architecture, AI agents
 
 ---
 
