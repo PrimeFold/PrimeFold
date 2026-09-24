@@ -1,15 +1,15 @@
 # Hey, I'm Aditya 👋
 
 <p align="center">
- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=2563EB&center=true&vCenter=true&width=600&lines=Building+modern+web+software;Next.js+%7C+TypeScript+%7C+PostgreSQL;Backend-focused+engineer;Curious.+Relentless.+Building." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=2563EB&center=true&vCenter=true&width=600&lines=Building+modern+web+software;Next.js+%7C+TypeScript+%7C+PostgreSQL;Full-stack+developer%2C+backend-leaning;I+build+and+ship+real+web+apps" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/PrimeFold">
-    <img src="https://img.shields.io/github/followers/PrimeFold?style=flat&logo=github&label=Followers" />
+  <a href="https://primefold-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=flat&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/PrimeFold?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-Browse-2563EB?style=flat&logo=github" />
+    <img src="https://img.shields.io/badge/Projects-Browse-2563EB?style=flat&logo=github" alt="Projects" />
   </a>
 </p>
 
@@ -17,133 +17,66 @@
 
 ## 🧑‍💻 About Me
 
-I'm a developer who enjoys figuring out **how things work** and turning ideas into real, usable products.
+I'm a full-stack developer from Ranchi who turns ideas into working products. I like understanding **why** systems are built the way they are, not just how to wire them together, and I lean toward backend work: data modeling, APIs, and the parts users never see but always feel.
 
-I'm still learning. A lot.
-
-And that's kind of the point.
-
-I'm currently focused on improving my fundamentals, writing better code, understanding how real-world applications are built, and becoming the kind of engineer who can solve problems rather than just make things look good.
-
-> **I'm not trying to know everything. I'm trying to get a little better every day.**
+I ship projects end to end, from database schema to deployed UI, and I use them to sharpen my fundamentals.
 
 ---
 
-## ⚡ What I'm Up To
+## 🚀 Featured Projects
 
-* 🔨 Building projects with **Next.js, TypeScript & Tailwind CSS**
-* 🧠 Learning more about **backend architecture, databases & system designm Modern UI/UX**
-* 🧪 Experimenting, breaking things, fixing them, and occasionally wondering why they worked in the first place
-* 🚀 Turning small ideas into real projects
-* 📚 Reading and studying code written by better engineers
+| Project | What it does | Stack |
+|---|---|---|
+| [**Spoonful**](https://github.com/PrimeFold/Spoonful) | Community-driven food discovery for college students: affordable dhabas, tiffin services and local gems that never show up on Zomato | TypeScript |
+| [**Invoicify**](https://github.com/PrimeFold/Invoicify) | Developer-first time tracking and auto-invoicing dashboard, with server-side vector PDF generation | Next.js (App Router), Prisma, TypeScript |
+| [**SpendPilot**](https://github.com/PrimeFold/SpendPilot) | Audit your AI spend in 60 seconds | TypeScript |
+| [**Passly**](https://github.com/PrimeFold/Passly) | Event registration and ticketing platform built for Indian organizers | TypeScript |
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages & Frameworks
+**Languages & Frontend**
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,js,html,css,react,nextjs,tailwind" />
-</p>
+<img src="https://skillicons.dev/icons?i=ts,js,html,css,react,nextjs,tailwind" alt="Frontend stack" />
 
-### Backend & Database
+**Backend & Database**
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,postgres,redis,prisma" />
-</p>
+<img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma" alt="Backend stack" />
 
-### Tools
+**Tools**
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,figma" />
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Tools" />
 
-### Creative
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ae,pr" />
-</p>
+**Currently exploring:** Redis, Docker, system design
 
 ---
 
-## 🚧 Currently Learning
+## 🚧 Currently Working On
 
-```text
-TypeScript
-   ↓
-React & Next.js
-   ↓
-Backend Architecture
-   ↓
-Databases & Caching
-   ↓
-System Design
-   ↓
-Better Software Engineering
-```
-
-I'm especially interested in understanding **why** things are built a certain way, not just memorizing how to implement them.
-
----
-
-### 🚀Coming projects..
-
-I'm constantly experimenting with new ideas and building small projects to learn.
-
-Some will be good.
-
-Some will be terrible.
-
-Both are useful.
-
----
-
-
-## 🌱 A Long-Term Goal
-
-I don't want to simply become someone who can build websites.
-
-I want to become a **great software engineer**.
-
-Someone who understands the fundamentals.
-
-Someone who can look at a complicated problem and break it down.
-
-Someone who writes software that is reliable, maintainable, and actually useful.
-
-I'm nowhere near there yet.
-
-**But I'm working towards it.**
+- Going deeper on **Next.js** and backend architecture
+- Databases, caching and system design
+- Reading code written by better engineers, then applying what I learn to my own projects
 
 ---
 
 ## 🤝 Let's Connect
 
 <p align="left">
-  <a href="https://github.com/PrimeFold">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://primefold-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/aditya-raj-primefold">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a
-   <!-- X (Twitter) -->
-  <a href="https://x.com/aditya_xb26476">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  
-  <!-- Instagram -->
+  <a href="https://x.com/aditya_xb26476">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
   <a href="https://instagram.com/solarisrex.zen">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-</p>
-
----
-
-<p align="center">
-  <i>Still learning. Still building. Still curious.</i>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=2563EB&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2563EB&height=100&section=footer" alt="" />
 </p>
