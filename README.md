@@ -55,7 +55,6 @@ PulseGuard is a self-hosted console that takes raw production logs, groups relat
 | [**Spoonful**](https://github.com/PrimeFold/Spoonful) | Community-driven food discovery for college students: affordable dhabas, tiffin services and local gems that never show up on Zomato | TypeScript |
 | [**Invoicify**](https://github.com/PrimeFold/Invoicify) | Developer-first time tracking and auto-invoicing dashboard, with server-side vector PDF generation | Next.js (App Router), Prisma, TypeScript |
 | [**SpendPilot**](https://github.com/PrimeFold/SpendPilot) | Audit your AI spend in 60 seconds | TypeScript |
-| [**Passly**](https://github.com/PrimeFold/Passly) | Event registration and ticketing platform built for Indian organizers | TypeScript |
 
 ---
 
