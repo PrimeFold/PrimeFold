@@ -1,7 +1,7 @@
 # Hey, I'm Aditya 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=2563EB&center=true&vCenter=true&width=600&lines=Building+modern+web+software;Next.js+%7C+TypeScript+%7C+PostgreSQL;Full-stack+developer%2C+backend-leaning;I+build+and+ship+real+web+apps" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=2563EB&center=true&vCenter=true&width=600&lines=Cloud+Native+%26+Go+Systems+Engineer;Building+high-throughput+distributed+software;L4+Proxies+%7C+Databases+%7C+Kubernetes;Active+CNCF+Contributor" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -17,34 +17,39 @@
 
 ## 🧑‍💻 About Me
 
-I'm a full-stack developer from Ranchi who turns ideas into working products. I like understanding **why** systems are built the way they are, not just how to wire them together, and I lean toward backend work: data modeling, APIs, and the parts users never see but always feel.
+I'm a systems and backend developer focused on building **high-throughput, cloud-native infrastructure in Go** and full-stack platforms with **TypeScript & Next.js**. I care about what happens at the network socket layer, memory allocations on the heap, and designing software that doesn't buckle under heavy concurrency.
 
-I ship projects end to end, from database schema to deployed UI. My flagship, PulseGuard, is an AI-assisted incident response platform with vector search, caching, and role-based multi-tenancy.
+Active contributor to the **CNCF ecosystem (OpenCost)**, working on Kubernetes cost-allocation engines, Prometheus metrics, and distributed tracing.
 
 ---
 
-## ⚡ Flagship Project: PulseGuard
+## 🌐 Open Source Contributions (CNCF)
 
-**Autonomous SRE & multi-tenant incident response platform** · [Live demo](https://pulseguard-app-navy.vercel.app) · [Source](https://github.com/PrimeFold/pulseguard)
+| Project | Organization | PR / Impact | Tech |
+|---|---|---|---|
+| [**OpenCost**](https://github.com/opencost/opencost) | CNCF | [#4144](https://github.com/opencost/opencost/pull/4144) · Added lifecycle unit tests for `ConfigMapWatchers.Stop()`, achieving 100% method coverage (+14.3% pkg jump) | Go, Concurrency |
+| [**OpenCost**](https://github.com/opencost/opencost) | CNCF | [#4146](https://github.com/opencost/opencost/pull/4146) · Dead code elimination in `ParseAggregationProperties` & Prometheus sanitization tests | Go, PromQL, CI |
+| [**OpenCost UI**](https://github.com/opencost/opencost-ui) | CNCF | [#105](https://github.com/opencost/opencost-ui/pull/105) · Resolved 57 strict TypeScript compile errors across legacy reporting routes | React, TypeScript |
 
-PulseGuard is a self-hosted console that takes raw production logs, groups related errors into incidents, looks up the relevant runbook, and lets an AI agent diagnose the outage and draft a code fix. Nothing reaches your repo until a human approves it.
+---
 
-**How it works**
+## ⚡ Featured Systems Projects
 
-1. **Ingest:** services POST logs to an API-key-protected, rate-limited endpoint.
-2. **Cluster:** stack traces are scrubbed of UUIDs, IPs, timestamps and numbers, then hashed (SHA-256) into a signature. A sliding window in Redis opens an incident only after 3 identical errors in 3 minutes, which cuts alert noise.
-3. **Diagnose:** in the incident "War Room", an AI agent queries telemetry, searches runbooks with pgvector semantic search (RAG), and reads files from the connected GitHub repo.
-4. **Fix:** the agent proposes a hotfix as a diff card. An `OWNER` or `ADMIN` approves it, and only then does PulseGuard open a pull request.
+### 🔹 [GoBalance](https://github.com/PrimeFold/gobalance) · Zero-Allocation L4 TCP Reverse Proxy
+A high-throughput Layer 4 TCP load balancer written in Go with least-connections routing, dynamic health-check daemon, and Prometheus metrics.
+- **Performance:** Benchmarked at **26 ns/op** with **0 heap allocations/op** using `sync.Pool` buffer recycling.
+- **Reliability:** Built with atomic counters, `net/http/pprof` runtime profiling, and graceful socket draining on SIGTERM.
+- **Stack:** Go · TCP Sockets · sync.Pool · Prometheus · pprof · Benchmarks
 
-**Engineering highlights**
+### 🔹 [ByteCache](https://github.com/PrimeFold/bytecache) · High-Performance In-Memory KV Database
+An in-memory key-value database running over raw TCP sockets with active TTL expiration and Cobra CLI.
+- **Throughput:** **50M+ reads/sec (20.4 ns/op)** and **31M+ writes/sec (31.8 ns/op)** across 18 cores with zero heap allocations.
+- **Concurrency:** Thread-safe read/write locking via `sync.RWMutex`, active background eviction daemon preventing memory leaks.
+- **Stack:** Go · Raw TCP Protocol · sync.RWMutex · Cobra CLI · Benchmarks
 
-- **Multi-tenant RBAC:** organizations are isolated server-side, with role checks (`OWNER`, `ADMIN`, `MEMBER`, `VIEWER`) on every sensitive action.
-- **Bring-your-own-model:** each org plugs in its own AI provider key (Google, Anthropic, OpenAI, Groq, OpenRouter), encrypted at rest.
-- **Human-in-the-loop by design:** the agent is read-only, and repo writes are gated behind admin approval.
-- **RAG pipeline:** PDF and Markdown runbooks are chunked, embedded, and searched by cosine similarity in Postgres.
-- **Production hygiene:** Redis caching, 7-day log auto-pruning, a Vitest suite covering encryption and RBAC, and a Docker Compose local stack. It is deployed on Vercel, and the repo has 70+ commits.
-
-**Stack:** Next.js 16 · React 19 · TypeScript · Bun · Prisma · PostgreSQL + pgvector · Redis · Vercel AI SDK · Better Auth · Octokit · Docker
+### 🔹 [PulseGuard](https://github.com/PrimeFold/pulseguard) · Autonomous SRE Incident Response Platform
+A multi-tenant production console that ingests raw production logs, aggregates errors using SHA-256 signatures and sliding-window rate-limiting, and utilizes an AI agent with RAG (pgvector) to draft hotfixes.
+- **Stack:** Next.js · TypeScript · Redis · PostgreSQL + pgvector · Prisma · Docker
 
 ---
 
@@ -52,35 +57,33 @@ PulseGuard is a self-hosted console that takes raw production logs, groups relat
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Spoonful**](https://github.com/PrimeFold/Spoonful) | Community-driven food discovery for college students: affordable dhabas, tiffin services and local gems that never show up on Zomato | TypeScript |
-| [**Invoicify**](https://github.com/PrimeFold/Invoicify) | Developer-first time tracking and auto-invoicing dashboard, with server-side vector PDF generation | Next.js (App Router), Prisma, TypeScript |
-| [**SpendPilot**](https://github.com/PrimeFold/SpendPilot) | Audit your AI spend in 60 seconds | TypeScript |
+| [**Spoonful**](https://github.com/PrimeFold/Spoonful) | Community-driven food discovery for college students: affordable local spots that don't appear on commercial food apps | TypeScript, Next.js |
+| [**Invoicify**](https://github.com/PrimeFold/Invoicify) | Developer-first time tracking and auto-invoicing dashboard with server-side vector PDF generation | Next.js, Prisma, TypeScript |
+| [**SpendPilot**](https://github.com/PrimeFold/SpendPilot) | Real-time AI token and compute spend auditor for organizations | TypeScript, React |
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages & Frontend**
+**Systems, Cloud Native & Backend**
 
-<img src="https://skillicons.dev/icons?i=ts,js,html,css,react,nextjs,tailwind" alt="Frontend stack" />
+<img src="https://skillicons.dev/icons?i=go,docker,kubernetes,postgres,redis,nodejs,bun" alt="Backend and Systems stack" />
 
-**Backend & Database**
+**Frontend & Languages**
 
-<img src="https://skillicons.dev/icons?i=nodejs,bun,postgres,prisma,redis,docker" alt="Backend stack" />
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css" alt="Frontend stack" />
 
-**Tools**
+**Tools & Diagnostics**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Tools" />
-
-**Currently exploring:** system design, deeper backend architecture, AI agents
+<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,bash" alt="Tools" />
 
 ---
 
 ## 🚧 Currently Working On
 
-- Going deeper on **Next.js** and backend architecture
-- Databases, caching and system design
-- Reading code written by better engineers, then applying what I learn to my own projects
+- Deepening **Go low-level networking**, gRPC streaming pipelines, and microservice architectures
+- Contributing upstream to CNCF repositories (OpenCost, CoreDNS, Jaeger)
+- Preparing for **LFX Mentorship & GSoC 2027** in Cloud Native & Systems
 
 ---
 
